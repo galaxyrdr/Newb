@@ -1401,7 +1401,7 @@ async def help_command(interaction: discord.Interaction):
     await interaction.response.send_message(embed=embed)
 
 bot.run(TOKEN)
-TOKEN)
+
 ption="🏓 Check the bot's latency")
 async def ping(interaction: discord.Interaction):
     latency = round(bot.latency * 1000)
